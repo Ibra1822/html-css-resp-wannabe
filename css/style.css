@@ -133,6 +133,7 @@ img {
     width: 100%;
     max-width: 761px;
    }
+  
  }
 
 
@@ -142,7 +143,7 @@ img {
  @media screen and (max-width:480px){
 
     .container{
-        width: 100%;
+       width: 100%;
        max-width: 480px;}
 
     .lessons {
@@ -161,23 +162,26 @@ img {
     .card,.col{
         margin-bottom: 30px;
     }
+
+   h3{font-size: 1.7rem;}
+    p{font-size: 1.2rem;}
+   
+   
  }
 
  /* FINE MOBILE  */
 
 
- @media screen and (min-width:768px){
+ @media screen and (min-width:768px),screen and (max-width: 1160px) {
   
    .container{
     width: 100%;
    }
      
-   h1{font-size: 4vw;}
-   h2{font-size: 2.5vw;}
-   h3{font-size: 2vw;}
-   p{font-size: 1.2vw;}
+   h1{font-size: 2.3rem;}
+   h2{font-size: 1.8rem;}
+   h3{font-size: 1.6rem;}
+   p{font-size: 1.2rem;}
 
  }
 
-
-        
