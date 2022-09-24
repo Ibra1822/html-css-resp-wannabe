@@ -160,13 +160,25 @@ img {
     }
   
     .card,.col{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
    h3{font-size: 1.7rem;}
     p{font-size: 1.2rem;}
+
+    .steps .row .col .card{
+        padding: 10px 20px;
+    }
    
-   
+    .why-us .container .col {
+        padding: 33px 35px;   
+
+    }
+
+     .col-left img{
+        width: 90%;
+     }
+    
  }
 
  /* FINE MOBILE  */
