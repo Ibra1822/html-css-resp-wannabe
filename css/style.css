@@ -128,72 +128,45 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- @media screen and (max-width:768px){
+ @media screen and (max-width:1110px){
    .container{
     width: 100%;
-    max-width: 761px;
    }
   
  }
-
-
-/* FINE TABLET */
 
 
  @media screen and (max-width:480px){
 
-    .container{
-       width: 100%;
-       max-width: 480px;}
+  .row{
+    flex-direction: column;
+  }
 
-    .lessons {
-        display: flex;
-    }
-    
-    .row {
-        flex-direction: column;
-    }
-
-    .row .col {
-        width: 100%;
-        max-width: 460px;
-    }
-  
-    .card,.col{
-        margin-bottom: 20px;
-    }
-
-   h3{font-size: 1.7rem;}
-    p{font-size: 1.2rem;}
-
-    .steps .row .col .card{
-        padding: 10px 20px;
-    }
-   
-    .why-us .container .col {
-        padding: 33px 35px;   
-
-    }
-
-     .col-left img{
-        width: 90%;
-     }
-    
- }
-
- /* FINE MOBILE  */
-
-
- @media screen and (min-width:768px),screen and (max-width: 1160px) {
-  
-   .container{
+  .lessons .col,
+  .steps .col,
+  .why-us .col{
     width: 100%;
-   }
-     
-   h1{font-size: 2.3rem;}
-   h2{font-size: 1.8rem;}
-   h3{font-size: 1.6rem;}
-   p{font-size: 1.2rem;}
+    margin-bottom: 4rem;
+  }
+
+  .lessons .col:last-child,
+  .steps .col:last-child,
+  .why-us .col:last-child{
+    margin-bottom: 0;
+  }
+
+.steps{
+    margin-bottom: 0;
+}
+  .why-us{
+    padding: 3rem 0;
+    background-color: #222222;
+    margin-bottom: 0;
+  }
 
  }
 
+
+
+
+ 
